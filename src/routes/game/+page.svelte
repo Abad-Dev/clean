@@ -58,7 +58,7 @@
                 columns: 5,
                 rows: 8,
                 notClicked: 16,
-                time: 15 - currentLevel,
+                time: 20 - currentLevel,
                 gap: 20
             }
             let notClickeds = selectedLevel.notClicked;
@@ -135,7 +135,11 @@
                 Parece que se te da bien, subamos un poco el nivel
             {:else if currentLevel-1 === 3}
                 A partir de acá las cosas se pondrán complicadas
+            {:else if currentLevel-1 === 4}
+                Sigue así intenta obtener todos los CLEAN que puedas
             {:else if currentLevel-1 === 10}
+                Has llegado lejos, sigue así
+            {:else if currentLevel-1 === 15}
                 La mayoría no pasan de acá, veamos si tu puedes...
             {/if}
             </small>
