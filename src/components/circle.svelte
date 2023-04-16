@@ -7,9 +7,9 @@
 <button on:click={() => {
     if (!clicked){onClick();}
     clicked=true;}}>
-<svg viewBox="0 0 100 100" width="50" height="50">
-    <circle cx="50" cy="50" r="40" fill={clicked ? 'gray' : 'lime'} />
-</svg>
+    <svg viewBox="0 0 100 100" width="50" height="50">
+        <circle cx="50" cy="50" r="40" fill={clicked ? "#ccc" : 'lime'} />
+    </svg>
 </button>
   
 <style>
