@@ -136,7 +136,7 @@
             {:else if currentLevel-1 === 3}
                 A partir de acá las cosas se pondrán complicadas
             {:else if currentLevel-1 === 10}
-                La mayoría no pasan de acá, veamos si tu puedes 😈
+                La mayoría no pasan de acá, veamos si tu puedes...
             {/if}
             </small>
         </div>
