@@ -128,7 +128,7 @@
     <div class="row">
         <div class="col-12 d-flex flex-column align-items-center">
             <h1 class="clean">CLEAN!</h1>
-            <small>
+            <small class="text-center">
             {#if currentLevel-1 === 1}
                 Eso estuvo facil, verdad? Vamos con algo mas complicado...
             {:else if currentLevel-1 === 2}
@@ -141,6 +141,8 @@
                 Has llegado lejos, sigue así
             {:else if currentLevel-1 === 15}
                 La mayoría no pasan de acá, veamos si tu puedes...
+            {:else if currentLevel-1 === 18}
+                Este es mi record personal, intenta superarlo!
             {/if}
             </small>
         </div>

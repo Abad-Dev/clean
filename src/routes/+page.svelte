@@ -37,7 +37,7 @@
             <h1>Bienvenido a</h1>
         </div>
         <div class="col-12 d-flex justify-content-center">
-            <i class="blur-in clean ms-4">CLEAN!</i>
+            <i class="blur-in clean">CLEAN!</i>
         </div>
         <div class="col-12 d-flex justify-content-center">
             <button type="button" class="btn btn-light" on:click={() => setIntro(1)}>Empezar</button>
